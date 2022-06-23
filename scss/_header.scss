@@ -1,0 +1,87 @@
+@media only screen and (max-width:768px){ /*Para un dispositivo de maximo de ancho*/
+    header{
+        background-color: $bg3;
+        margin: 10px;
+        .nav{
+            width: 80%;
+            background-color: $bg4;
+            margin: 10px auto;
+            .logo{
+                text-align: left;
+                margin: 10px;
+                padding: 10px auto;
+                height: 50px;    
+            }
+            .imgLogo{
+                height: 3rem;
+            }
+            .menu{
+                list-style: none;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                .boton{
+                    padding: 10px;
+                    margin: 10px;
+                    &:hover{
+                        background-color:$texto2;
+                        border-radius:15%;
+                    } 
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        &:hover{
+                            color: $texto1;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px){ /*Para un dispositivo a partir de 768px*/
+    header{
+        background-color: $bg3;
+        margin: 10px;
+        .nav{
+            width: 80%;
+            background-color: $bg2;
+            margin: 10px auto;
+            .logo{
+                text-align: center;
+                margin: 10px;
+                padding: 10px auto;
+                height: 50px;    
+            }
+            .imgLogo{
+                height: 80px;
+            }
+            .menu{
+                list-style: none;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .boton{
+                    padding: 10px;
+                    margin: 10px;
+                    &:hover{
+                        background-color:$texto2;
+                        border-radius:15%;
+                    } 
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        &:hover{
+                            color: $texto1;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
