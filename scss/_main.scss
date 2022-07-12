@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px){ /*Para un dispositivo de maximo de ancho*/
+@media only screen and (max-width:576px){/*Para un dispositivo de maximo de ancho*/
     main{
        .intro{
        font-family: Arial, Helvetica, sans-serif;
@@ -50,8 +50,9 @@
        }
    }
 }
+}
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:576px){
 .carrou{
    margin: auto;
    padding: 20px;
@@ -61,7 +62,7 @@
 }
 .grilla{
    margin: auto;
-   padding: 20px;
+   padding: 12px;
 }
 
 .accordion{
@@ -70,15 +71,29 @@
 }
 .comidaMichi{
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     width: auto;
+    height: auto;
+    display: block;
+}
+.sesion{
+    margin: auto;
+    padding: 10px;
+    width:auto;
     height: auto;
     display: block
 }
+.crearCuenta{
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    display: block
 }
 }
 
-@media only screen and (min-width:768px){/*Para un dispositivo a partir de 768px*/
+
+@media only screen and (min-width:576px){/*Para un dispositivo a partir de 576px*/
    main{
        .intro{
        font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +147,7 @@
 }
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:576px){
    .carrou{
        margin: auto;
        padding: 20px;
@@ -157,5 +172,22 @@
     height: auto;
     display: block
 }
-   }
+    .crearCuenta{
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    display: block
+}
+.sesion{
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    display: block
+}
+}
+
+
+   
    

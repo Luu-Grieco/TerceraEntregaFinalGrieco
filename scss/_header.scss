@@ -1,26 +1,28 @@
-@media only screen and (max-width:768px){ /*Para un dispositivo de maximo de ancho*/
+@media only screen and (max-width:576px){ /*Para un dispositivo de maximo de ancho*/
     header{
         background-color: $bg3;
         margin: 10px;
         .nav{
             width: 80%;
-            background-color: $bg4;
+            background-color: $bg2;
             margin: 10px auto;
             .logo{
-                text-align: left;
+                text-align: center;
                 margin: 10px;
                 padding: 10px auto;
-                height: 50px;    
+                height: auto;    
             }
             .imgLogo{
-                height: 3rem;
+                height: auto;
+                margin: 10px;
+                padding: 10px auto
             }
             .menu{
                 list-style: none;
                 padding: 10px;
                 display: flex;
-                flex-direction: column;
-                justify-content: left;
+                flex-direction:column;
+                justify-content: center;
                 .boton{
                     padding: 10px;
                     margin: 10px;
@@ -42,7 +44,7 @@
     }
 }
 
-@media only screen and (min-width:768px){ /*Para un dispositivo a partir de 768px*/
+@media only screen and (min-width:576px){ /*Para un dispositivo a partir de 576px*/
     header{
         background-color: $bg3;
         margin: 10px;
@@ -52,21 +54,23 @@
             margin: 10px auto;
             .logo{
                 text-align: center;
-                margin: 10px;
+                margin: 10px auto;
                 padding: 10px auto;
-                height: 50px;    
+                height: auto;    
             }
             .imgLogo{
-                height: 80px;
+               height: auto;
+                margin: 10px;
+                padding: 10px auto
             }
             .menu{
                 list-style: none;
-                padding: 10px;
+                padding: 10px auto;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 .boton{
-                    padding: 10px;
+                    padding: 10px; 
                     margin: 10px;
                     &:hover{
                         background-color:$texto2;
